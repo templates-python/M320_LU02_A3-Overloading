@@ -1,19 +1,39 @@
 {
   "tests": [
     {
-      "name": "Input/Output",
-      "setup": "",
-      "run": "python3 main.py",
+      "name": "Pytest",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_initialization\"",
       "input": "",
-      "output": "Total: 78.75\n",
+      "output": "",
       "comparison": "included",
-      "timeout": 1,
-      "points": 1
+      "timeout": 10,
+      "points": 2
     },
     {
       "name": "Pytest",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test\"",
+      "run": "pytest -v  -k \"test_type_set_get\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Pytest",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_size_get_set\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Pytest",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_color_get_set\"",
       "input": "",
       "output": "",
       "comparison": "included",
