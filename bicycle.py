@@ -3,10 +3,10 @@ class Bicycle:
     Definiert ein Fahrrad mit einigen wenigen Attributen und Methoden.
     '''
 
-# hier Konstruktor und getter/setter anschreiben
+# hier Konstruktor anschreiben
 # Konstruktor mit Testmethode test_initialization-Methode überprüfen
 
-# hier getter und setter der Attribute anschrieben
+# hier getter und setter der Attribute anschreiben
 # Jedes paar (get/set) mit entsprechender Testmethode überprüfen
 # - test_type_set_get
 # - test_size_get_set
