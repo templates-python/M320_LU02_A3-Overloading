@@ -1,5 +1,5 @@
 import pytest
-from bicycle import Bicycle  # Stellen Sie sicher, dass Sie den richtigen Modulnamen verwenden
+from bicycle import Bicycle
 
 class TestBicycle:
 

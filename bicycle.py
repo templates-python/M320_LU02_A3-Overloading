@@ -13,6 +13,7 @@ class Bicycle:
 # - test_color_get_set
 
 if __name__ == "__main__":
+    pass
     # Aufgabe 1
     # Objekt erzeugen und über print-Methode des Objekts(!) ausgeben.
     #
