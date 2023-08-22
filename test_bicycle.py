@@ -1,5 +1,7 @@
 import pytest
+
 from bicycle import Bicycle  # Stellen Sie sicher, dass Sie den richtigen Modulnamen verwenden
+
 
 class TestBicycle:
 
@@ -23,6 +25,7 @@ class TestBicycle:
         bike = Bicycle()
         bike.color = 'blue'
         assert bike.color == 'blue'
+
 
 if __name__ == '__main__':
     pytest.main()

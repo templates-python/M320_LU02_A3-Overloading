@@ -7,8 +7,8 @@ class Bicycle:
         '''
         Konstruktor initialisiert das Objekt mit 3 Parameterwerten.
         '''
-        self.type  = type
-        self.size  = size
+        self.type = type
+        self.size = size
         self.color = color
 
     @property
@@ -54,7 +54,8 @@ class Bicycle:
         self._color = color
 
     def print(self):
-        print(f'Fahrrad:\n\tArt:            {self._type}\n\tRahmengrösse:   {self._size}\n\tFarbe:          {self._color}')
+        print(
+            f'Fahrrad:\n\tArt:            {self._type}\n\tRahmengrösse:   {self._size}\n\tFarbe:          {self._color}')
 
 
 if __name__ == "__main__":
@@ -62,14 +63,13 @@ if __name__ == "__main__":
     bicycle = Bicycle()
     bicycle.print()
     #
-    bicycle = Bicycle(type = 'racebike')
+    bicycle = Bicycle(type='racebike')
     bicycle.print()
     #
-    bicycle = Bicycle(type = 'citybike', size = '42')
+    bicycle = Bicycle(type='citybike', size='42')
     bicycle.print()
     #
     # Aufgabe 2
     #
-    bicycle.color='red'
+    bicycle.color = 'red'
     bicycle.print()
-
