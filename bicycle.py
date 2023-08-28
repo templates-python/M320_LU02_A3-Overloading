@@ -7,9 +7,9 @@ class Bicycle:
         '''
         Konstruktor initialisiert das Objekt mit 3 Parameterwerten.
         '''
-        self.type = type
-        self.size = size
-        self.color = color
+        self._type = type
+        self._size = size
+        self._color = color
 
     @property
     def type(self):
