@@ -7,9 +7,9 @@ class TestBicycle:
 
     def test_initialization(self):
         bike = Bicycle()
-        assert bike.type == 'mountenbike'
+        assert bike.type == 'mountainbike'
         assert bike.size == 48
-        assert bike.color == 'gray'
+        assert bike.color == 'grey'
 
     def test_type_set_get(self):
         bike = Bicycle()
