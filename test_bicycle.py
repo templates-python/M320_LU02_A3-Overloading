@@ -7,7 +7,7 @@ class TestBicycle:
         bike = Bicycle()
         assert bike._type == 'mountainbike'
         assert bike._size == 48
-        assert bike._color == 'grey'
+        assert bike._color == 'gray'
 
     def test_type_set_get(self):
         bike = Bicycle()
