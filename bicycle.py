@@ -3,13 +3,13 @@ class Bicycle:
     Definiert ein Fahrrad mit einigen wenigen Attributen und Methoden.
     '''
 
-    def __init__(self, type='mountenbike', size=48, color='gray'):
+    def __init__(self, type='mountainbike', size=48):
         '''
         Konstruktor initialisiert das Objekt mit 3 Parameterwerten.
         '''
         self._type = type
         self._size = size
-        self._color = color
+        self._color = 'gray'
 
     @property
     def type(self):
