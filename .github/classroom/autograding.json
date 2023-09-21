@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Pytest",
+      "name": "test_initialization",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_initialization\"",
       "input": "",
@@ -11,7 +11,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_type_set_get",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_type_set_get\"",
       "input": "",
@@ -21,7 +21,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_size_get_set",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_size_get_set\"",
       "input": "",
